@@ -15,7 +15,7 @@ namespace org.ccccye.weather.citycode.core
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseMySQL(@"server=47.106.122.7;uid=root;pwd=@123456;
+                optionsBuilder.UseMySQL(@"server=127.0.0.1;uid=root;pwd=;
                     port=3306;database=weather;sslmode=Preferred;charset=gb2312");
             }
         }
